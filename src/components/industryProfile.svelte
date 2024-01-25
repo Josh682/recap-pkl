@@ -2,11 +2,27 @@
     import ajak from '../assets/ajakonline-logo.png'
 </script>
 
-<div class={`grid grid-cols-1 place-items-center h-[100vh] rounded-3xl bg-white overflow-hidden ${$$props.class}`}>
-    <h2 class="my-4 text-2xl font-bold">AJAK ONLINE</h2>
-    <img src="{ajak}" alt="" class="w-[60%] rounded-2xl">
-    <div class="h-[50vh] border border-black">
 
+    <div class={`grid grid-cols-1 place-items-center overflow-hidden ${$$props.class}`}>
+        <slot/>
+
+        <div class="container mt-10 text-center text-white rounded-xl w-[80%] px-3 bg-gradient-to-tl from-[#00ffaa] via-[#0000ff] via-40% to-[#00ddee] to-95% shadow-[40px] none">
+            <div class="font-bold text-2xl mt-5">PROFIL PERUSAHAAN</div>
+            <img src="{ajak}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+            <div class="text-left text-sm mb-5 ml-2">
+                <h4 class="mt-3">Nama Perusahaan : Ajakonline</h4>
+                <h4 class="mt-2">Nama Pimpinan : Wahyu Lulianto</h4>
+                <h4 class="mt-2">No. Telepon : 085226355566</h4>
+                <h4 class="mt-2">Website : ajakonline.com</h4>
+                <h4 class="mt-2">Alamat : Jl. Bromo Raya No.88, Geplukan, Kadipiro, Banjarsari, Surakarta</h4>
+                <h4 class="mt-2">Bidang : Jasa Pembuatan Website</h4>
+            </div>
+        </div>
+
+        <div class="container w-[90%] bg-[#0000ff] rounded-xl mx-auto my-10 p-4 text-white text-base text-justify">
+            Ajakonline merupakan ahli jasa pembuatan website, menawarkan solusi digital inovatif dan profesional. Dengan tim desainer kreatif dan pengembang web handal, Ajakonline fokus pada menciptakan situs web yang tidak hanya estetis, tetapi juga fungsional. 
+        </div>
     </div>
-</div>
+
+
 

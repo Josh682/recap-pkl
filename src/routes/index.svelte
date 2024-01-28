@@ -4,6 +4,7 @@
     import Grid from '../components/contentGrid.svelte'
     import Label from '../components/contentLabel.svelte'
     import Industry from '../components/industryProfile.svelte'
+    import Team from '../components/teamProfile.svelte'
 
     import hero from '../assets/hero.jpeg'
     import profile from '../assets/profile.png'
@@ -83,9 +84,78 @@ openTab('industry');
             <Industry/>
         </div>
         <div class="tab-content" id="team">
-            <Industry>
-                <h1 class="text-center text-2xl">TEAM</h1>
-            </Industry>
+            
+            <div class="grid grid-cols-1 place-items-center overflow-hidden">
+                <div class="font-bold text-2xl mt-5">PROFIL TEAM</div>
+
+                <Team>
+                    <div class="font-bold text-2xl mt-5">Joshua</div>
+                    <img src="" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+                    <div class="text-left text-sm mb-5 ml-2">
+                        <h4 class="mt-4">Nama Lengkap : Joshua Satria Kusuma</h4>
+                        <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 25 November 2006</h4>
+                        <h4 class="mt-2">Alamat : Dempo Serut Rt. 09 Rw. 12 Mojosongo, Jebres, Surakarta</h4>
+                        <h4 class="mt-2">No. Telepon : 081227102119</h4>
+                        <h4 class="mt-2">Website : joshuaskusuma.my.id</h4>
+                    </div>  
+                </Team>
+                <Team>
+                    <div class="font-bold text-2xl mt-5">Rangga</div>
+                    <img src="" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+                    <div class="text-left text-sm mb-5 ml-2">
+                        <h4 class="mt-4">Nama Lengkap : Muhammad Rangga Prasetya</h4>
+                        <h4 class="mt-2">Tempat, Tgl Lahir : Boyolali, 13 November 2005</h4>
+                        <h4 class="mt-2">Alamat : Pilangsari RT05/RT01 Potronayan, Nogosari, Boyolali </h4>
+                        <h4 class="mt-2">No. Telepon : 085163680621</h4>
+                        <h4 class="mt-2">Website : ranggaprass.my.id</h4>
+                    </div>  
+                </Team>
+                <Team>
+                    <div class="font-bold text-2xl mt-5">Fano</div>
+                    <img src="" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+                    <div class="text-left text-sm mb-5 ml-2">
+                        <h4 class="mt-4">Nama Lengkap : Stefano Talenta Putra</h4>
+                        <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 6 April 2006</h4>
+                        <h4 class="mt-2">Alamat : Perumahan Puri Mandiri blok C12, Wonorejo, Gondangrejo, Karanganyar</h4>
+                        <h4 class="mt-2">No. Telepon : 082221245234</h4>
+                        <h4 class="mt-2">Website : stefanotalentap.my.id</h4>
+                    </div>  
+                </Team>
+                <Team>
+                    <div class="font-bold text-2xl mt-5">Lucas</div>
+                    <img src="" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+                    <div class="text-left text-sm mb-5 ml-2">
+                        <h4 class="mt-4">Nama Lengkap : Lucas Christian Firdaus</h4>
+                        <h4 class="mt-2">Tempat, Tgl Lahir : Karanganyar, 31 mei 2006</h4>
+                        <h4 class="mt-2">Alamat : Ingasrejo rt02/08, Plesungan, Gondangrejo, Karanganyar.</h4>
+                        <h4 class="mt-2">No. Telepon :  083159464322</h4>
+                        <h4 class="mt-2">Website : lucasc.my.id</h4>
+                    </div>  
+                </Team>
+                <Team>
+                    <div class="font-bold text-2xl mt-5">Syafiq</div>
+                    <img src="" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+                    <div class="text-left text-sm mb-5 ml-2">
+                        <h4 class="mt-4">Nama Lengkap : Muhammad Syafiq Shidiq</h4>
+                        <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 10 Februari 2006</h4>
+                        <h4 class="mt-2">Alamat : Talang RT 7 RW 1, Banaran, Grogol, Sukoharjo</h4>
+                        <h4 class="mt-2">No. Telepon : 089676025902</h4>
+                        <h4 class="mt-2">Website : syafiqshidiq.my.id</h4>
+                    </div>  
+                </Team>
+                <Team>
+                    <div class="font-bold text-2xl mt-5">Zacky</div>
+                    <img src="" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
+                    <div class="text-left text-sm mb-5 ml-2">
+                        <h4 class="mt-4">Nama Lengkap : Muhammad Zacky Fikry Ali</h4>
+                        <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 18 Juli 2005</h4>
+                        <h4 class="mt-2">Alamat : jl. Kacer 5 no.8 Manahan, Banjarsari, Surakarta</h4>
+                        <h4 class="mt-2">No. Telepon : 081353716585</h4>
+                        <h4 class="mt-2">Website : fikry.my.id</h4>
+                    </div>  
+                </Team>
+            </div>
+
         </div>
         <div class="tab-content" id="story">
             <Industry>

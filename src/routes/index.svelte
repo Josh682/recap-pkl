@@ -48,10 +48,10 @@ openTab('project');
 </script>
 
 <div class="all">
-    <div class="py-5 fixegd top-0 bg-[#c8fff4] h-[250px] w-[100vw]">
-        <div class="head border border-white rounded-xl w-[90%] mx-auto grid grid-cols-[60%_auto]">
+    <div class="py-3 fixed top-0 bg-[#c8fff4] h-[270px] w-[100vw]">
+        <div class="head border border-white rounded-xl w-[95%] mx-auto grid grid-cols-[60%_auto]">
             <div class="grid grid-cols-1 text-white">
-                <span class="ml-3 mt-5 text-lg font-bold">Hello! I'm Joshua </span>
+                <span class="ml-3 mt-5 text-xl font-bold">Hello! I'm Joshua </span>
                 <span class="ml-3 mt-[-8px] text-base">And this is my internship journey</span>
     
                 <div class="ml-3 mt-4 grid grid-cols-3 w-[50%]">
@@ -72,102 +72,102 @@ openTab('project');
                 </div>
             </Grid>
         </div>
-        <div class="flex flex-row justify-between mx-auto mt-5 text-sm w-[90vw]">
+        <div class="flex flex-row justify-between mx-auto mt-3 text-sm w-[85%]">
             <button id="tab1" on:click={()=> openTab('industry')}>
                 <Grid>
-                    <img src="{ajak}" alt="" class="rounded-[15px] w-[50px] h-[50px]">
+                    <img src="{ajak}" alt="" class="rounded-[15px] w-[70px] h-[66px]">
                     <Label>Industry</Label>    
                 </Grid>
             </button>
             <button id="tab2" on:click={()=> openTab('team')}>
                 <Grid>
-                    <img src="{teams}" alt="" class="rounded-[15px] w-[50px] h-[50px]">
+                    <img src="{teams}" alt="" class="rounded-[15px] w-[70px] h-[66px]">
                     <Label>Team</Label>
                 </Grid>
             </button>
             <button id="tab3" on:click={()=> openTab('project')}>
                 <Grid>
-                    <img src="{profile}" alt="" class="rounded-[15px] w-[50px] h-[50px]">
+                    <img src="{profile}" alt="" class="rounded-[15px] w-[70px] h-[66px]">
                     <Label>Projects</Label>
                 </Grid>
             </button>
         </div>
     </div>
 
-    <div class="bot mt-[300px] rounded-2xl bg-white shadow-[35px_#000000] flex justify-center align-middle">
+    <div class="bot mt-[270px] rounded-2xl bg-white shadow-[35px_#000000] flex justify-center align-middle">
         <div class="tab-content" id="industry">
             <Industry/>
         </div>
         <div class="tab-content" id="team">
             
             <Grid class="overflow-hidden">
-                <div class="font-bold text-7xl my-16">PROFIL TEAM</div>
+                <div class="font-bold text-2xl my-7 text-center">PROFIL TEAM</div>
 
-                <div class="grid grid-cols-2 place-items-center">
+                <div class="grid grid-cols-1 place-items-center gap-8">
                     <Team>
-                        <div class="font-bold text-5xl mt-5">Joshua</div>
+                        <div class="font-bold text-xl mt-3">Joshua</div>
                         <img src="{jojo}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
-                        <div class="text-left text-3xl mb-5 ml-2">
-                            <h4 class="mt-10">Nama Lengkap : Joshua Satria Kusuma</h4>
-                            <h4 class="mt-8">Tempat, Tgl Lahir : Surakarta, 25 November 2006</h4>
-                            <h4 class="mt-8">Alamat : Dempo Serut Rt. 09 Rw. 12 Mojosongo, Jebres, Surakarta</h4>
-                            <h4 class="mt-8">No. Telepon : 081227102119</h4>
-                            <h4 class="mt-8">Website : joshuaskusuma.my.id</h4>
+                        <div class="text-left text-base mb-5 ml-2">
+                            <h4 class="mt-8">Nama Lengkap : Joshua Satria Kusuma</h4>
+                            <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 25 November 2006</h4>
+                            <h4 class="mt-2">Alamat : Dempo Serut Rt. 09 Rw. 12 Mojosongo, Jebres, Surakarta</h4>
+                            <h4 class="mt-2">No. Telepon : 081227102119</h4>
+                            <h4 class="mt-2">Website : joshuaskusuma.my.id</h4>
                         </div>  
                     </Team>
                     <Team>
-                        <div class="font-bold text-5xl mt-5">Rangga</div>
+                        <div class="font-bold text-xl mt-3">Rangga</div>
                         <img src="{rangga}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
-                        <div class="text-left text-3xl mb-5 ml-2">
-                            <h4 class="mt-10">Nama Lengkap : Muhammad Rangga Prasetya</h4>
-                            <h4 class="mt-8">Tempat, Tgl Lahir : Boyolali, 13 November 2005</h4>
-                            <h4 class="mt-8">Alamat : Pilangsari RT05/RT01 Potronayan, Nogosari, Boyolali </h4>
-                            <h4 class="mt-8">No. Telepon : 085163680621</h4>
-                            <h4 class="mt-8">Website : ranggaprass.my.id</h4>
+                        <div class="text-left text-base mb-5 ml-2">
+                            <h4 class="mt-8">Nama Lengkap : Muhammad Rangga Prasetya</h4>
+                            <h4 class="mt-2">Tempat, Tgl Lahir : Boyolali, 13 November 2005</h4>
+                            <h4 class="mt-2">Alamat : Pilangsari RT05/RT01 Potronayan, Nogosari, Boyolali </h4>
+                            <h4 class="mt-2">No. Telepon : 085163680621</h4>
+                            <h4 class="mt-2">Website : ranggaprass.my.id</h4>
                         </div>  
                     </Team>
                     <Team>
-                        <div class="font-bold text-5xl mt-5">Fano</div>
+                        <div class="font-bold text-xl mt-3">Fano</div>
                         <img src="{fano}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
-                        <div class="text-left text-3xl mb-5 ml-2">
-                            <h4 class="mt-10">Nama Lengkap : Stefano Talenta Putra</h4>
-                            <h4 class="mt-8">Tempat, Tgl Lahir : Surakarta, 6 April 2006</h4>
-                            <h4 class="mt-8">Alamat : Perumahan Puri Mandiri blok C12, Wonorejo, Gondangrejo, Karanganyar</h4>
-                            <h4 class="mt-8">No. Telepon : 082221245234</h4>
-                            <h4 class="mt-8">Website : stefanotalentap.my.id</h4>
+                        <div class="text-left text-base mb-5 ml-2">
+                            <h4 class="mt-8">Nama Lengkap : Stefano Talenta Putra</h4>
+                            <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 6 April 2006</h4>
+                            <h4 class="mt-2">Alamat : Perumahan Puri Mandiri blok C12, Wonorejo, Gondangrejo, Karanganyar</h4>
+                            <h4 class="mt-2">No. Telepon : 082221245234</h4>
+                            <h4 class="mt-2">Website : stefanotalentap.my.id</h4>
                         </div>  
                     </Team>
                     <Team>
-                        <div class="font-bold text-5xl mt-5">Lucas</div>
+                        <div class="font-bold text-xl mt-3">Lucas</div>
                         <img src="{lucas}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
-                        <div class="text-left text-3xl mb-5 ml-2">
-                            <h4 class="mt-10">Nama Lengkap : Lucas Christian Firdaus</h4>
-                            <h4 class="mt-8">Tempat, Tgl Lahir : Karanganyar, 31 mei 2006</h4>
-                            <h4 class="mt-8">Alamat : Ingasrejo rt02/08, Plesungan, Gondangrejo, Karanganyar.</h4>
-                            <h4 class="mt-8">No. Telepon :  083159464322</h4>
-                            <h4 class="mt-8">Website : lucasc.my.id</h4>
+                        <div class="text-left text-base mb-5 ml-2">
+                            <h4 class="mt-8">Nama Lengkap : Lucas Christian Firdaus</h4>
+                            <h4 class="mt-2">Tempat, Tgl Lahir : Karanganyar, 31 mei 2006</h4>
+                            <h4 class="mt-2">Alamat : Ingasrejo rt02/08, Plesungan, Gondangrejo, Karanganyar.</h4>
+                            <h4 class="mt-2">No. Telepon :  083159464322</h4>
+                            <h4 class="mt-2">Website : lucasc.my.id</h4>
                         </div>  
                     </Team>
                     <Team>
-                        <div class="font-bold text-5xl mt-5">Syafiq</div>
+                        <div class="font-bold text-xl mt-3">Syafiq</div>
                         <img src="{syafiq}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
-                        <div class="text-left text-3xl mb-5 ml-2">
-                            <h4 class="mt-10">Nama Lengkap : Muhammad Syafiq Shidiq</h4>
-                            <h4 class="mt-8">Tempat, Tgl Lahir : Surakarta, 10 Februari 2006</h4>
-                            <h4 class="mt-8">Alamat : Talang RT 7 RW 1, Banaran, Grogol, Sukoharjo</h4>
-                            <h4 class="mt-8">No. Telepon : 089676025902</h4>
-                            <h4 class="mt-8">Website : syafiqshidiq.my.id</h4>
+                        <div class="text-left text-base mb-5 ml-2">
+                            <h4 class="mt-8">Nama Lengkap : Muhammad Syafiq Shidiq</h4>
+                            <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 10 Februari 2006</h4>
+                            <h4 class="mt-2">Alamat : Talang RT 7 RW 1, Banaran, Grogol, Sukoharjo</h4>
+                            <h4 class="mt-2">No. Telepon : 089676025902</h4>
+                            <h4 class="mt-2">Website : syafiqshidiq.my.id</h4>
                         </div>  
                     </Team>
                     <Team>
-                        <div class="font-bold text-5xl mt-5">Zacky</div>
+                        <div class="font-bold text-xl mt-3">Zacky</div>
                         <img src="{fikry}" alt="" class="w-[60%] rounded-2xl mt-4 mx-auto">
-                        <div class="text-left text-3xl mb-5 ml-2">
-                            <h4 class="mt-10">Nama Lengkap : Muhammad Zacky Fikry Ali</h4>
-                            <h4 class="mt-8">Tempat, Tgl Lahir : Surakarta, 18 Juli 2005</h4>
-                            <h4 class="mt-8">Alamat : jl. Kacer 5 no.8 Manahan, Banjarsari, Surakarta</h4>
-                            <h4 class="mt-8">No. Telepon : 081353716585</h4>
-                            <h4 class="mt-8">Website : fikry.my.id</h4>
+                        <div class="text-left text-base mb-5 ml-2">
+                            <h4 class="mt-8">Nama Lengkap : Muhammad Zacky Fikry Ali</h4>
+                            <h4 class="mt-2">Tempat, Tgl Lahir : Surakarta, 18 Juli 2005</h4>
+                            <h4 class="mt-2">Alamat : jl. Kacer 5 no.8 Manahan, Banjarsari, Surakarta</h4>
+                            <h4 class="mt-2">No. Telepon : 081353716585</h4>
+                            <h4 class="mt-2">Website : fikry.my.id</h4>
                         </div>  
                     </Team>
                 </div>
@@ -180,7 +180,7 @@ openTab('project');
                     <h2 class="text-2xl text-center font-bold mb-3">Website Portfolio</h2>
                     <img src="{portfolio}" alt="" class="w-[80%]">
                     <span class="text-base w-[80%] mt-3">Salah satu hasil produk saya selama magang di Ajak Online adalah website portfolio yang dibuat denga html, css, javascript, dan bootsrap, yang dihosting menggunakan github pages dan menggunakan custom domain .my.id</span>
-                    <a href="joshuaskusuma.my.id" class="w-[80%] text-lg text-left text-blue-600 mt-3 underline">Lihat Disini</a>
+                    <a href="https://joshuaskusuma.my.id" class="w-[80%] text-lg text-left text-blue-600 mt-3 underline">Lihat Disini</a>
                 </Grid>
                 <Grid class="my-8">
                     <h2 class="text-2xl text-center font-bold mb-3">Landing Page <br/> Website Sekolah</h2>
@@ -191,7 +191,7 @@ openTab('project');
                     <h2 class="text-2xl text-center font-bold mb-3">Website Promosi <br/> Produk/Perusahaan</h2>
                     <img src="{josan}" alt="" class="w-[80%]">
                     <span class="text-base w-[80%] mt-3">Salah satu hasil produk saya selama magang di Ajak Online adalah website portfolio yang dibuat denga html, css, javascript, dan bootsrap, yang dihosting menggunakan github pages dan menggunakan custom domain .my.id</span>
-                    <a href="batikjosan.com" class="w-[80%] text-lg text-left text-blue-600 mt-3 underline">Lihat Disini</a>
+                    <a href="https://batikjosan.com" class="w-[80%] text-lg text-left text-blue-600 mt-3 underline">Lihat Disini</a>
                 </Grid>
             </Grid>     
         </div>

@@ -48,10 +48,10 @@ openTab('project');
 </script>
 
 <div class="all">
-    <div class="py-5 fixed top-0 bg-[#c8fff4] h-[300px] w-[100vw]">
-        <div class="head border border-white rounded-xl w-[90%] mx-auto grid grid-cols-[60%_auto] pto-4 ">
+    <div class="py-5 fixegd top-0 bg-[#c8fff4] h-[250px] w-[100vw]">
+        <div class="head border border-white rounded-xl w-[90%] mx-auto grid grid-cols-[60%_auto]">
             <div class="grid grid-cols-1 text-white">
-                <span class="ml-3 mt-5 text-xl font-bold">Hello! I'm Joshua </span>
+                <span class="ml-3 mt-5 text-lg font-bold">Hello! I'm Joshua </span>
                 <span class="ml-3 mt-[-8px] text-base">And this is my internship journey</span>
     
                 <div class="ml-3 mt-4 grid grid-cols-3 w-[50%]">
@@ -72,22 +72,22 @@ openTab('project');
                 </div>
             </Grid>
         </div>
-        <div class="flex flex-row justify-evenly mx-auto mt-5 text-sm">
+        <div class="flex flex-row justify-between mx-auto mt-5 text-sm w-[90vw]">
             <button id="tab1" on:click={()=> openTab('industry')}>
                 <Grid>
-                    <img src="{ajak}" alt="" class="rounded-[15px] w-[80px] h-[80px]">
+                    <img src="{ajak}" alt="" class="rounded-[15px] w-[50px] h-[50px]">
                     <Label>Industry</Label>    
                 </Grid>
             </button>
             <button id="tab2" on:click={()=> openTab('team')}>
                 <Grid>
-                    <img src="{teams}" alt="" class="rounded-[15px] w-[80px] h-[80px]">
+                    <img src="{teams}" alt="" class="rounded-[15px] w-[50px] h-[50px]">
                     <Label>Team</Label>
                 </Grid>
             </button>
             <button id="tab3" on:click={()=> openTab('project')}>
                 <Grid>
-                    <img src="{profile}" alt="" class="rounded-[15px] w-[80px] h-[80px]">
+                    <img src="{profile}" alt="" class="rounded-[15px] w-[50px] h-[50px]">
                     <Label>Projects</Label>
                 </Grid>
             </button>

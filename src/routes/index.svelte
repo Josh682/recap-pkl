@@ -48,53 +48,53 @@ openTab('project');
 </script>
 
 <div class="all">
-    <div class="py-10 fixed top-0 bg-[#c8fff4] h-[700px] w-[100vw]">
-        <div class="head border border-white rounded-[30px] w-[90%] mx-auto grid grid-cols-[60%_auto] pto-4 ">
+    <div class="py-5 fixed top-0 bg-[#c8fff4] h-[300px] w-[100vw]">
+        <div class="head border border-white rounded-xl w-[90%] mx-auto grid grid-cols-[60%_auto] pto-4 ">
             <div class="grid grid-cols-1 text-white">
-                <span class="ml-10 mt-10 text-6xl font-bold">Hello! I'm Joshua </span>
-                <span class="ml-10 mt-[-25px] text-4xl">And this is my internship journey</span>
+                <span class="ml-3 mt-5 text-xl font-bold">Hello! I'm Joshua </span>
+                <span class="ml-3 mt-[-8px] text-base">And this is my internship journey</span>
     
-                <div class="ml-10 mt-8 grid grid-cols-3 w-[50%]">
+                <div class="ml-3 mt-4 grid grid-cols-3 w-[50%]">
                     <a href="https://www.instagram.com/joshuask_/">
-                        <i class="fa-brands fa-instagram text-[65px]"></i>
+                        <i class="fa-brands fa-instagram text-[25px]"></i>
                     </a>
                     <a href="https://api.whatsapp.com/send/?phone=6281227102119&text&type=phone_number&app_absent=0">
-                        <i class="fa-brands fa-whatsapp text-[65px]"></i>
+                        <i class="fa-brands fa-whatsapp text-[25px]"></i>
                     </a>
                     <a href="https://github.com/Josh682">
-                        <i class="fa-brands fa-github text-[65px]"></i>                    
+                        <i class="fa-brands fa-github text-[25px]"></i>                    
                     </a>
                 </div>
             </div>
             <Grid>
-                <div class=" w-[280px] h-[280px] rounded-full my-5">
+                <div class=" w-[100px] h-[100px] rounded-full my-5">
                     <img src="{hero}" alt="" class="rounded-full w-full h-full">
                 </div>
             </Grid>
         </div>
-        <div class="flex flex-row justify-evenly mx-auto mt-10 text-sm">
+        <div class="flex flex-row justify-evenly mx-auto mt-5 text-sm">
             <button id="tab1" on:click={()=> openTab('industry')}>
                 <Grid>
-                    <img src="{ajak}" alt="" class="rounded-[50px] w-[190px] h-[190px]">
+                    <img src="{ajak}" alt="" class="rounded-[15px] w-[80px] h-[80px]">
                     <Label>Industry</Label>    
                 </Grid>
             </button>
             <button id="tab2" on:click={()=> openTab('team')}>
                 <Grid>
-                    <img src="{teams}" alt="" class="rounded-[50px] w-[190px] h-[190px]">
+                    <img src="{teams}" alt="" class="rounded-[15px] w-[80px] h-[80px]">
                     <Label>Team</Label>
                 </Grid>
             </button>
             <button id="tab3" on:click={()=> openTab('project')}>
                 <Grid>
-                    <img src="{profile}" alt="" class="rounded-[50px] w-[190px] h-[190px]">
+                    <img src="{profile}" alt="" class="rounded-[15px] w-[80px] h-[80px]">
                     <Label>Projects</Label>
                 </Grid>
             </button>
         </div>
     </div>
 
-    <div class="bot mt-[700px] rounded-[70px] bg-white shadow-[35px_#000000] flex justify-center align-middle">
+    <div class="bot mt-[300px] rounded-2xl bg-white shadow-[35px_#000000] flex justify-center align-middle">
         <div class="tab-content" id="industry">
             <Industry/>
         </div>
@@ -176,22 +176,22 @@ openTab('project');
         </div>
         <div class="tab-content show" id="project">
             <Grid>
-                <Grid class="my-16">
-                    <h2 class="text-[75px] text-center font-bold mb-8">Website Portfolio</h2>
+                <Grid class="my-8">
+                    <h2 class="text-2xl text-center font-bold mb-3">Website Portfolio</h2>
                     <img src="{portfolio}" alt="" class="w-[80%]">
-                    <span class="text-[40px] w-[80%] mt-8">Salah satu hasil produk saya selama magang di Ajak Online adalah website portfolio yang dibuat denga html, css, javascript, dan bootsrap, yang dihosting menggunakan github pages dan menggunakan custom domain .my.id</span>
-                    <a href="joshuaskusuma.my.id" class="w-[80%] text-[50px] text-left text-blue-600 mt-5 underline">Lihat Disini</a>
+                    <span class="text-base w-[80%] mt-3">Salah satu hasil produk saya selama magang di Ajak Online adalah website portfolio yang dibuat denga html, css, javascript, dan bootsrap, yang dihosting menggunakan github pages dan menggunakan custom domain .my.id</span>
+                    <a href="joshuaskusuma.my.id" class="w-[80%] text-lg text-left text-blue-600 mt-3 underline">Lihat Disini</a>
                 </Grid>
-                <Grid class="my-16">
-                    <h2 class="text-[75px] text-center font-bold mb-8">Landing Page <br/> Website Sekolah</h2>
+                <Grid class="my-8">
+                    <h2 class="text-2xl text-center font-bold mb-3">Landing Page <br/> Website Sekolah</h2>
                     <img src="{sekolah}" alt="" class="w-[80%]">
-                    <span class="text-[40px] w-[80%] mt-8">Selain website portfolio pribadi yang bisa digunakan sebagai cv online, sya juga membuat template landing page sekolah yang bisa di export dalam bentuk file .json dan dijual secara komersil</span>
+                    <span class="text-base w-[80%] mt-3">Selain website portfolio pribadi yang bisa digunakan sebagai cv online, sya juga membuat template landing page sekolah yang bisa di export dalam bentuk file .json dan dijual secara komersil</span>
                 </Grid>   
-                <Grid class="my-16">
-                    <h2 class="text-[75px] text-center font-bold mb-8">Website Promosi <br/> Produk/Perusahaan</h2>
+                <Grid class="my-8">
+                    <h2 class="text-2xl text-center font-bold mb-3">Website Promosi <br/> Produk/Perusahaan</h2>
                     <img src="{josan}" alt="" class="w-[80%]">
-                    <span class="text-[40px] w-[80%] mt-8">Salah satu hasil produk saya selama magang di Ajak Online adalah website portfolio yang dibuat denga html, css, javascript, dan bootsrap, yang dihosting menggunakan github pages dan menggunakan custom domain .my.id</span>
-                    <a href="batikjosan.com" class="w-[80%] text-[50px] text-left text-blue-600 mt-5 underline">Lihat Disini</a>
+                    <span class="text-base w-[80%] mt-3">Salah satu hasil produk saya selama magang di Ajak Online adalah website portfolio yang dibuat denga html, css, javascript, dan bootsrap, yang dihosting menggunakan github pages dan menggunakan custom domain .my.id</span>
+                    <a href="batikjosan.com" class="w-[80%] text-lg text-left text-blue-600 mt-3 underline">Lihat Disini</a>
                 </Grid>
             </Grid>     
         </div>

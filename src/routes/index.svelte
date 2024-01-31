@@ -7,7 +7,7 @@
     import Team from '../components/teamProfile.svelte'
 
     import hero from '../assets/hero.jpeg'
-    import profile from '../assets/profile.png'
+    import projects from '../assets/projects.png'
     import teams from '../assets/teams.png'
     import ajak from '../assets/ajakonline-logo.png'
     import jojo from '../assets/jojo.jpeg'
@@ -87,7 +87,7 @@ openTab('project');
             </button>
             <button id="tab3" on:click={()=> openTab('project')}>
                 <Grid>
-                    <img src="{profile}" alt="" class="rounded-[15px] w-[70px] h-[66px]">
+                    <img src="{projects}" alt="" class="rounded-[15px] w-[70px] h-[66px]">
                     <Label>Projects</Label>
                 </Grid>
             </button>
